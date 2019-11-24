@@ -228,6 +228,13 @@ class _EntityControlAlarmPanelState extends State<EntityControlAlarmPanel> {
                       alarmButton("8"),
                       alarmButton("9")
                     ],
+                  ),
+                  new Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      alarmButton("0")
+                    ],
                   )
                 ],
               )
